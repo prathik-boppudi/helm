@@ -146,7 +146,7 @@ hooks:
       exitCode: 0
   postRollback:
     job:
-      enabled: false
+      enabled: True
       hookDeletePolicy: hook-succeeded,hook-failed
       ttlSecondsAfterFinished:
       sleepSeconds:
